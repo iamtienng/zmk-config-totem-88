@@ -1,0 +1,161 @@
+layout: {zmk_keyboard: totem}
+layers:
+  BASE:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - Y
+  - P
+  - {t: A, h: LCTRL}
+  - {t: S, h: LALT}
+  - {t: D, h: LGUI}
+  - {t: F, h: LSHFT}
+  - {t: G, h: SYM}
+  - {t: H, h: SYM}
+  - {t: J, h: RSHFT}
+  - {t: K, h: RGUI}
+  - {t: L, h: RALT}
+  - {t: ;, h: RCTRL}
+  - {t: ESC, h: NAV}
+  - {t: Z, h: ADJ}
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - {t: /, h: ADJ}
+  - {t: '''', h: NAV}
+  - LGUI
+  - SPACE
+  - {t: TAB, h: NAV}
+  - {t: ENTER, h: SYM}
+  - SPACE
+  - BACKSPACE
+  NAV:
+  - SCROLLLOCK
+  - PAUSE BREAK
+  - UP
+  - '='
+  - '{'
+  - '}'
+  - '7'
+  - '8'
+  - '9'
+  - KP PLUS
+  - INSERT
+  - LEFT
+  - DOWN
+  - RIGHT
+  - '['
+  - ']'
+  - '4'
+  - '5'
+  - '6'
+  - KP MINUS
+  - PRINTSCREEN
+  - DEL
+  - PG UP
+  - CAPS
+  - PG DN
+  - (
+  - )
+  - '1'
+  - '2'
+  - '3'
+  - KP MULTIPLY
+  - KP DIVIDE
+  - VOLUME DOWN
+  - VOLUME UP
+  - {t: ▽, type: trans}
+  - ADJ
+  - '0'
+  - KP DOT
+  SYM:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - '?'
+  - ''''
+  - +
+  - '='
+  - (
+  - )
+  - '"'
+  - ':'
+  - '['
+  - ']'
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - <
+  - '|'
+  - '-'
+  - '>'
+  - \
+  - '`'
+  - _
+  - /
+  - '~'
+  - ;
+  - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - VOLUME UP
+  - ADJ
+  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - FAST FORWARD
+  ADJ:
+  - '&sys_reset'
+  - BT PRV
+  - BT NXT
+  - BT CLR
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F12
+  - '&bootloader'
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - MUTE
+  - {t: ▽, type: trans}
+  - F4
+  - F5
+  - F6
+  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOL DN
+  - VOL UP
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ESC

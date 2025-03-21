@@ -62,10 +62,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp Q               &kp W       &kp E           &kp R        &kp T        &kp Y        &kp U        &kp I            &kp Y       &kp P
-              &mt LEFT_CONTROL A  &mt LALT S  &mt LEFT_GUI D  &mt LSHFT F  &lt 2 G      &lt 2 H      &mt RSHFT J  &mt RIGHT_GUI K  &mt RALT L  &mt RIGHT_CONTROL SEMICOLON
-&lt 1 ESCAPE  &lt 3 Z             &kp X       &kp C           &kp V        &kp B        &kp N        &kp M        &kp COMMA        &kp DOT     &lt 3 SLASH                  &lt 1 SINGLE_QUOTE
-                                              &kp LEFT_GUI    &kp SPACE    &lt 1 TAB    &lt 2 ENTER  &kp SPACE    &kp BACKSPACE
+           &kp Q        &kp W       &kp E       &kp R        &kp T        &kp Y        &kp U        &kp I          &kp Y       &kp P
+           &mt LCTRL A  &mt LALT S  &mt LGUI D  &mt LSHFT F  &lt 2 G      &lt 2 H      &mt RSHFT J  &mt RGUI K     &mt RALT L  &mt RCTRL SEMI
+&lt 1 ESC  &lt 3 Z      &kp X       &kp C       &kp V        &kp B        &kp N        &kp M        &kp COMMA      &kp DOT     &lt 3 FSLH      &lt 1 SQT
+                                    &kp LGUI    &kp SPACE    &lt 1 TAB    &lt 2 ENTER  &kp SPACE    &kp BACKSPACE
             >;
         };
 
@@ -74,7 +74,7 @@
         nav_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "NAVI";
+            label = "NAV";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
@@ -88,10 +88,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                 &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp UP             &kp EQUAL        &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_PLUS
-                 &kp INSERT      &kp LEFT         &kp DOWN           &kp RIGHT        &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp KP_MINUS
-&kp PRINTSCREEN  &kp DEL         &kp PG_UP        &kp CAPS           &kp PG_DN        &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_MULTIPLY  &kp KP_DIVIDE
-                                                  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans      &mo 3     &kp KP_N0  &kp KP_DOT
+                 &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp UP             &kp EQUAL        &kp LBRC    &kp RBRC  &kp N7  &kp N8      &kp N9  &kp KP_PLUS
+                 &kp INSERT      &kp LEFT         &kp DOWN           &kp RIGHT        &kp LBKT    &kp RBKT  &kp N4  &kp N5      &kp N6  &kp KP_MINUS
+&kp PRINTSCREEN  &kp DEL         &kp PG_UP        &kp CAPS           &kp PG_DN        &kp LPAR    &kp RPAR  &kp N1  &kp N2      &kp N3  &kp KP_MULTIPLY  &kp KP_DIVIDE
+                                                  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans      &mo 3     &kp N0  &kp KP_DOT
             >;
         };
 
@@ -114,10 +114,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL       &kp AT     &kp HASH              &kp DLLR               &kp PRCNT            &kp CARET  &kp AMPS          &kp STAR            &kp QUESTION    &kp SINGLE_QUOTE
-        &kp PLUS       &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES    &kp COLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans  &kp LESS_THAN  &kp PIPE   &kp MINUS             &kp GREATER_THAN       &kp BACKSLASH        &kp GRAVE  &kp UNDERSCORE    &kp SLASH           &kp TILDE       &kp SEMICOLON     &trans
-                                  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP        &mo 3                &trans     &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD
+        &kp EXCL       &kp AT     &kp HASH              &kp DLLR               &kp PRCNT        &kp CARET  &kp AMPS          &kp STAR            &kp QUESTION    &kp SINGLE_QUOTE
+        &kp PLUS       &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DQT          &kp COLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans  &kp LESS_THAN  &kp PIPE   &kp MINUS             &kp GREATER_THAN       &kp BACKSLASH    &kp GRAVE  &kp UNDERSCORE    &kp SLASH           &kp TILDE       &kp SEMICOLON     &trans
+                                  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP        &mo 3            &trans     &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD
             >;
         };
 
