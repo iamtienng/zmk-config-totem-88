@@ -94,10 +94,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp UP             &kp EQUAL        &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_PLUS
-        &kp INSERT       &kp LEFT         &kp DOWN           &kp RIGHT        &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp KP_MINUS
-&trans  &kp DEL          &kp PG_UP        &kp CAPS           &kp PG_DN        &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_MULTIPLY  &kp KP_DIVIDE
-                                          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans      &mo ADJ   &kp KP_N0  &kp KP_DOT
+                 &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp UP             &kp EQUAL        &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_PLUS
+                 &kp INSERT      &kp LEFT         &kp DOWN           &kp RIGHT        &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp KP_MINUS
+&kp PRINTSCREEN  &kp DEL         &kp PG_UP        &kp CAPS           &kp PG_DN        &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_MULTIPLY  &kp KP_DIVIDE
+                                                  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans      &mo ADJ   &kp KP_N0  &kp KP_DOT
             >;
         };
 
