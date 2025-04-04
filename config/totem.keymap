@@ -62,10 +62,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q        &kp W       &kp E       &kp R        &kp T        &kp O        &kp U        &kp I          &kp Y       &kp P
-           &mt LCTRL A  &mt LALT S  &mt LGUI D  &mt LSHFT F  &lt 2 G      &lt 2 H      &mt RSHFT J  &mt RGUI K     &mt RALT L  &mt RCTRL SEMI
-&lt 1 ESC  &lt 3 Z      &kp X       &kp C       &kp V        &kp B        &kp N        &kp M        &kp COMMA      &kp DOT     &lt 3 FSLH      &lt 1 SQT
-                                    &kp LGUI    &kp SPACE    &lt 1 TAB    &lt 2 ENTER  &kp SPACE    &kp BACKSPACE
+           &kp Q        &kp W       &kp E       &kp R        &kp T        &kp O            &kp U        &kp I       &kp Y       &kp P
+           &mt LCTRL A  &mt LALT S  &mt LGUI D  &mt LSHFT F  &lt 2 G      &lt 2 H          &mt RSHFT J  &mt RGUI K  &mt RALT L  &mt RCTRL SEMI
+&lt 1 ESC  &lt 3 Z      &kp X       &kp C       &kp V        &kp B        &kp N            &kp M        &kp COMMA   &kp DOT     &lt 3 FSLH      &lt 1 SQT
+                                    &kp LGUI    &kp SPACE    &lt 1 TAB    &lt 2 BACKSPACE  &kp SPACE    &kp ENTER
             >;
         };
 
